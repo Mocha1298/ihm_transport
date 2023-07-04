@@ -55,5 +55,9 @@ $response = $kernel->handle(
 $kernel->terminate($request, $response);
 
 
+<<<<<<< HEAD
 
 // MEONG
+=======
+// IPIN
+>>>>>>> 8c6240e673634242a0aac632009de608d5e3c7c9
