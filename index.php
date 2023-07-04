@@ -31,7 +31,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../laravel/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__.'/../laravel1/bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
@@ -55,4 +55,13 @@ $response = $kernel->handle(
 $kernel->terminate($request, $response);
 
 
+<<<<<<< HEAD
 // JOS TENAN
+=======
+<<<<<<< HEAD
+
+// MEONG
+=======
+// IPIN
+>>>>>>> 8c6240e673634242a0aac632009de608d5e3c7c9
+>>>>>>> 30315fee96908584d6776c8e9660e36e04f82cc3
