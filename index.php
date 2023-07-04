@@ -44,7 +44,7 @@ require __DIR__.'/../laravel/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../laravel1/bootstrap/app.php';
+$app = require_once __DIR__.'/../laravel12/bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
@@ -53,11 +53,3 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
-
-
-<<<<<<< HEAD
-
-// MEONG
-=======
-// IPIN
->>>>>>> 8c6240e673634242a0aac632009de608d5e3c7c9
